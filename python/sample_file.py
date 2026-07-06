@@ -10,3 +10,12 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 x_train = x_train.astype('float32') / 255.0
 x_test = x_test.astype('float32') / 255.0
+
+datagen = ImageDataGenerator(
+    rotation_range=15,
+    width_shift_range=0.1,
+    height_shift_range=0.1,
+    horizontal_flip=True,
+)
+
+datagen.fit(x_train)
