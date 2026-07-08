@@ -31,3 +31,8 @@ def_split_corn_seed_images(input_directory, output_directory, num_splits, prefix
                 output_filename = f"{prefix}_{os.path.splitext(filename)[0]}_part{i + 1}.jpg"
                 output_path = os.path.join(output_directory, output_filename)
                 cv2.imwrite(output_path, split_img)
+
+source_path = "/path/to/source/images"  # Replace with the actual path to your source images
+output_path = "/path/to/output/split_images"  # Replace with the desired output
+
+split_corn_seed_images(source_path, output_path, num_splits=4, prefix="corn_seed_ext")  # Adjust num_splits as needed
