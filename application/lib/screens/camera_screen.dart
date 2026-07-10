@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:application/utilities/buttons.dart';
+import 'package:cornseedapplication/utilities/buttons.dart';
 import 'package:flutter/material.dart';
 
 class CameraScreen extends StatelessWidget {

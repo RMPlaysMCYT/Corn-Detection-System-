@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:application/screens/_navigation_bar.dart';
+import 'package:cornseedapplication/screens/_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:window_manager/window_manager.dart';

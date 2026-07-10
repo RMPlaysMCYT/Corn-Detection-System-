@@ -1,7 +1,7 @@
-import 'package:application/screens/camera_screen.dart';
-import 'package:application/screens/home_screen.dart';
-import 'package:application/screens/report_screen.dart';
-import 'package:application/screens/settings_screen.dart';
+import 'package:cornseedapplication/screens/camera_screen.dart';
+import 'package:cornseedapplication/screens/home_screen.dart';
+import 'package:cornseedapplication/screens/report_screen.dart';
+import 'package:cornseedapplication/screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 
 class NavigationBarWidget extends StatefulWidget {
