@@ -1,0 +1,1 @@
+final List<double> weeklySummary = [0, 0, 0, 0, 0, 0, 0];
